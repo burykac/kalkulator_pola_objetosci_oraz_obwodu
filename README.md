@@ -1,2 +1,2 @@
 # volume_calculator
-This program calculate different figures volume
+Program obliczający pole powierzchni oraz objętość figur.
