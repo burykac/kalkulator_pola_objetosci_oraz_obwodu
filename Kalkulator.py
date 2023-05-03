@@ -27,7 +27,15 @@ print("Dostępne wybory: \n"
 while True:
     wybor = int(input("Co chcesz policzyć? "))
     match wybor:
-        case "1":
-
+            case 1:
+                  a = float(input("Wprowadź a: "))
+                  print(Wzory.P_kwadrat(a))
+            case 2:
+                  d = float(input("Wprowadź d: "))
+                  print(Wzory.P_kwadrat_przekatne(d))
+            case 3:
+                  a = float(input("Wprowadź a: "))
+                  print(Wzory.Ob_kwadrat(a))
+            case 4:
 
 
