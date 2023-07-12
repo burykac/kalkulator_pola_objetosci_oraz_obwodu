@@ -37,5 +37,51 @@ while True:
                   a = float(input("Wprowadź a: "))
                   print(Wzory.Ob_kwadrat(a))
             case 4:
-
-
+                  a = float(input("Wprowadź a: "))
+                  b = float(input("Wprowadź b: "))
+                  print(Wzory.P_prostokat(a, b))
+            case 5:
+                  a = float(input("Wprowadź a: "))
+                  b = float(input("Wprowadź h: "))
+                  print(Wzory.P_prostokat(a, b))
+            case 6:
+                  a = float(input("Wprowadź a: "))
+                  b = float(input("Wprowadź b: "))
+                  print(Wzory.Ob_prostokat(a, b))
+            case 7:
+                  a = float(input("Wprowadź a: "))
+                  b = float(input("Wprowadź b: "))
+                  h = float(input("Wprowadź h: "))
+                  print(Wzory.P_trapez(a, b, h))
+            case 8:
+                  a = float(input("Wprowadź a: "))
+                  b = float(input("Wprowadź b: "))
+                  c = float(input("Wprowadź c: "))
+                  d = float(input("Wprowadź d: "))
+                  print(Wzory.Ob_trapez(a, b, c, d))
+            case 9:
+                  a = float(input("Wprowadź a: "))
+                  b = float(input("Wprowadź h: "))
+                  print(Wzory.P_prostokat(a, b))
+            case 10:
+                  d = float(input("Wprowadź d: "))
+                  p = float(input("Wprowadź p: "))
+                  print(Wzory.P_romb_przekatne(d, p))
+            case 11:
+                  a = float(input("Wprowadź a: "))
+                  h = float(input("Wprowadź h: "))
+                  print(Wzory.P_trojkat(a, h))
+            case 12:
+                  a = float(input("Wprowadź a: "))
+                  print(Wzory.P_t_rownobocznego(a))
+            case 13:
+                  a = float(input("Wprowadź a: "))
+                  print(Wzory.Wysokosc_t_rownobocznego(a))
+            case 14:
+                  r = float(input("Wprowadź r: "))
+                  print(Wzory.P_kola(r))
+            case 15:
+                  r = float(input("Wprowadź r: "))
+                  print(Wzory.V_kuli(r))
+            case 16:
+                  
